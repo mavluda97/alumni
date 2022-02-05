@@ -47,7 +47,6 @@ header {
 }
 
 .header-content-container {
-  padding-top: 15%;
   position: absolute;
   z-index: 2;
   display: flex;
@@ -338,7 +337,7 @@ header {
 
 @media (max-width: 420px) {
   header {
-    height: 100vh;
+    height: 110vh;
   }
   .logo-container > img {
     width: 191px;
