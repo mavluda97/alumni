@@ -47,7 +47,7 @@ header {
 }
 
 .header-content-container {
-  margin-top: 15%;
+  padding-top: 15%;
   position: absolute;
   z-index: 2;
   display: flex;
