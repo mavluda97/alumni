@@ -353,10 +353,11 @@ header {
   }
   .header-main-small-text {
     font-size: 14px;
+    width: 320px;
   }
   .participate-container {
     margin-top: 10px;
-    width: 284px;
+    width: 320px;
   }
 }
 
@@ -377,7 +378,7 @@ header {
     font-size: 12px;
   }
   .participate-container {
-    width: 250px;
+    width: 320px;
   }
 }
 
