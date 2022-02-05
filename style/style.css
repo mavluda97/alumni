@@ -57,6 +57,7 @@ header {
 }
 
 .header-main-title {
+  margin-top: 20%;
   font-family: Atyp Display;
   font-style: normal;
   font-weight: bold;
@@ -353,11 +354,11 @@ header {
   }
   .header-main-small-text {
     font-size: 14px;
-    width: 320px;
+    width: 300px;
   }
   .participate-container {
     margin-top: 10px;
-    width: 320px;
+    width: 300px;
   }
 }
 
@@ -378,13 +379,19 @@ header {
     font-size: 12px;
   }
   .participate-container {
-    width: 320px;
+    width: 300px;
   }
 }
 
 @media (max-width: 280px) {
   header {
     height: 140vh;
+  }
+  .header-main-small-text {
+    width: 250px;
+  }
+  .participate-container {
+    width: 250px;
   }
 }
 
