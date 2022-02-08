@@ -107,6 +107,14 @@
                 >
               </div>
             </div>
+            <textarea
+              id="hidden-textarea"
+              maxlength="160"
+              placeholder="What's your topic ?"
+              class="resizable-textarea"
+              oninput="auto_grow(this)"
+              style="overflow: hidden"
+            ></textarea>
             <input type="submit" class="participate-btn" value="Participate" />
             <p class="participant-container-privacy">
               By clicking <span>Participate</span> you agreed with<br />
@@ -142,5 +150,6 @@
       </div>
     </header>
     <script src="source/script.js"></script>
+    <script src="source/textarea.js"></script>
   </body>
 </html>
