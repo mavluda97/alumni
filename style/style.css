@@ -317,7 +317,7 @@ header {
 
 @media (max-width: 992px) {
   header {
-    height: 100vh;
+    height: 120vh;
   }
   .logo-container > img {
     width: 220px;
